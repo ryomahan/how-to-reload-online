@@ -1,0 +1,22 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "RyomaHan", email = "ryomahan1996@gmail.com"},
+]
+dependencies = [
+    "django>=4.2.1",
+    "djangorestframework>=3.14.0",
+    "celery>=5.2.7",
+    "gunicorn>=20.1.0",
+    "pymysql>=1.0.3",
+    "Pillow>=9.5.0",
+    "cryptography>=40.0.2",
+    "faker>=18.9.0",
+    "redis>=4.5.5",
+    "requests>=2.30.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
